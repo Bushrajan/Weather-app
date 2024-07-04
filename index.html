@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+  <link rel="stylesheet" href="./images/files/style.css" />
+
+</head>
+
+<body>
+
+  <!------------------------------------------------------------------------>
+  <video src="./images/files/Templates 2.mp4" controls muted autoplay loop></video>
+  <!------------------------------------------------------------------------>
+
+
+  <div class="container">
+
+    <!-- <div class="h2app">
+      <h2 class="h2ap"> Bushra Jan - 40125 </h2> <br>
+      <h2 class="h3ap">Teacher : Mr. Adil Ahmed Shekhani </h2> <br>
+    </div> -->
+
+    <div class="h3app">
+    </div>
+
+    <div class="card">
+      <h1 class="h1app">Weather App</h1> <br>
+      <div class="search">
+        <input type="text" placeholder=" Enter city name . . ." spellcheck="false" />
+        <button><img src="./images/search.png" alt="img" /></button>
+      </div> <!--search-->
+
+      <div class="error">
+        <center>
+          <p style="font-style: oblique; color:white; text-shadow: 2px 0px #d8a55d; font-weight:bold; font-size:20px ">
+            Invalid city name... </p>
+          <p style="font-style: oblique; color:white; text-shadow: 2px 0px #d8a55d; font-weight:bold; font-size:20px ">
+            Must be the correct word, Then you will see the Weather-Forecast. </p>
+        </center>
+      </div>
+
+      <div class="weather">
+        <img src="./images/weather.jpg" class="weather-icon" />
+
+
+        <h1 class="temp">31°C</h1>
+        <h2 class="city">Lahore</h2>
+
+        <div class="details">
+          <div class="col">
+            <img src="images/wind.png" />
+            <div>
+              <p class="wind">41.2 km/h</p>
+              <p>Wind Speed</p>
+            </div>
+          </div>  <!--col wind  -->
+          <!-- ---------------------------------------- -->
+
+          <div class="col">
+            <img src="images/humidity.png" />
+            <div>
+              <p class="humidity">70%</p>
+              <p>Humidity</p>
+            </div>
+          </div> 
+          <!-- -------------------col humidity--------------------- -->
+
+          <div class="col">
+            <img src="./images/sealevel.webp" />
+            <div>
+              <p class="sealevel"> Sealevel</p>
+            </div>
+          </div> 
+          <!-- -----------------col sealevel----------------------- -->
+
+          <div class="col">
+            <img src="./images/feels_like.png"/>
+            <div>
+              <p class="feellike"> Feels like</p>
+            </div>
+          </div> 
+          <!-- ------------------col rain---------------------- -->
+
+        </div> <!-- details -->
+      </div> <!-- weather -->
+
+    </div> <!-- card -->
+  </div> <!-- container -->
+
+
+
+
+
+  <script src="./images/files/app.js"></script>
+</body>
+
+</html>
